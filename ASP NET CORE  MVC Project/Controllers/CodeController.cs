@@ -8,18 +8,28 @@ namespace ASP_NET_CORE__MVC_Project.Controllers
         {
             return View();
         }
-
         public IActionResult Java()
         {
             return View();
         }
-
         public IActionResult CSharp()
         {
             return View();
         }
-
         public IActionResult C()
+        {
+            return View();
+        }
+
+        public IActionResult Python()
+        {
+            return View();
+        }
+        public IActionResult JavaScript()
+        {
+            return View();
+        }
+        public IActionResult PHP()
         {
             return View();
         }
