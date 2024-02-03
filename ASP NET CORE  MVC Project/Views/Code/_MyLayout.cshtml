@@ -1,20 +1,9 @@
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     <style>
-        
-
-        .menu-container {
-            display: flex;
-            background-color: #3498db;
-            height: 100vh; /* Full height of the viewport */
-            flex-direction: column; /* Stack items vertically */
-            width: 150px; /* Adjust the width as needed */
-        }
-
         .menu-item {
             font-size: 25px;
             margin: 10px;
@@ -22,17 +11,11 @@
             text-decoration: none;
             color: white;
         }
-
-        .menu-render-container {
-            display: flex;
-        }
-
         .header-container {
             background-color: #3498db;
             height: 50px;
             line-height: 50px;
         }
-
         .header-item {
             display: inline-block;
             margin-right: 105px;
@@ -41,7 +24,16 @@
             text-decoration: none;
             color: white;
         }
-
+        .menu-render-container {
+            display: flex;
+        }
+        .menu-container {
+            display: flex;
+            background-color: #3498db;
+            height: 100vh; /* Full height of the viewport */
+            flex-direction: column; /* Stack items vertically */
+            width: 150px; /* Adjust the width as needed */
+        }
         .render-body {
             color: brown;
             padding: 20px; /* Add some padding for better visibility */
@@ -63,7 +55,7 @@
     <div class="menu-render-container">
         <div class="menu-container">
             <a href="/Code/Print" class="menu-item">Print</a>
-            <a href="/Code/Variables" class="menu-item">Variables</a>
+            <a href="/Code/Variable" class="menu-item">Variables</a>
             <a href="/Code/DataTypes" class="menu-item">Data types</a>
             <a href="/Code/Oprators" class="menu-item">Operators</a>
             <a href="/Code/If" class="menu-item">If</a>
