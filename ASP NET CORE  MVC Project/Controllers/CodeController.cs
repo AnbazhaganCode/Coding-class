@@ -33,5 +33,13 @@ namespace ASP_NET_CORE__MVC_Project.Controllers
         {
             return View();
         }
+        public IActionResult Print()
+        {
+            return View();
+        }
+        public IActionResult Variable()
+        {
+            return View();
+        }
     }
 }
